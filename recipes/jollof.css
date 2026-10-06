@@ -11,7 +11,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-} 
+}
 
 h1 {
     color: #c62828;
@@ -27,14 +27,15 @@ h2 {
     margin-bottom: 15px;
 }
 
-ul, ol {
+ul,
+ol {
     font-size: 18px;
     line-height: 1.6;
     padding-left: 30px;
 }
 
 .recipe-container {
-    background-color:white;
+    background-color: white;
     max-width: 800px;
     margin: 30px auto;
     padding: 30px;
@@ -73,7 +74,7 @@ ul, ol {
     padding: 20px 40px;
 }
 
-.recipe-container ol li{
+.recipe-container ol li {
     margin-bottom: 10px;
 }
 
@@ -91,6 +92,7 @@ ul, ol {
     border-radius: 5px;
     color: #444;
 }
+
 .home-button {
     display: inline-block;
     background-color: #2e7d32;
@@ -99,12 +101,13 @@ ul, ol {
     padding: 10px 20px;
     border-radius: 6px;
     font-size: 18px;
-    
+
 }
 
 .home-button:hover {
     background-color: darkgreen;
 }
+
 .top-button {
     display: inline-block;
     background-color: #2e7d32;

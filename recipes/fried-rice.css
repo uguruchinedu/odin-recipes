@@ -6,6 +6,7 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+
 .recipe-container {
     background-color: white;
     max-width: 900px;
@@ -82,7 +83,7 @@ body {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 12px;
-    
+
 }
 
 .preparation {
@@ -100,7 +101,7 @@ body {
 }
 
 .preparation ol {
-    
+
     margin: 0;
     padding-left: 25px;
 }
@@ -111,13 +112,14 @@ body {
     margin-bottom: 15px;
     padding-left: 25px;
 
-   
+
 }
 
 .home-link {
     margin-top: 25px;
     text-align: center;
 }
+
 .home-link a {
     background-color: darkgreen;
     border-radius: 6px;
@@ -125,11 +127,10 @@ body {
     font-size: 22px;
     padding: 15px 25px;
     text-decoration: none;
-    transition: backbroud  color 0.3s ease;
+    transition: backbroud color 0.3s ease;
 
 }
 
 .home-link a:hover {
     background-color: green;
 }
-

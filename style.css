@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 0;
 }
 
@@ -24,7 +24,7 @@
 
 .nav-links a {
     text-decoration: none;
-    padding: 10px 20px; 
+    padding: 10px 20px;
     font-size: larger;
 }
 
@@ -41,8 +41,8 @@
 }
 
 .navbar h1 {
-margin-left: -80px;
-    
+    margin-left: -80px;
+
 }
 
 .welcome {
@@ -52,7 +52,7 @@ margin-left: -80px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     /* border: 2px solid blue; */
+    /* border: 2px solid blue; */
 }
 
 .welcome h2 {
@@ -93,6 +93,7 @@ margin-left: -80px;
     color: whitesmoke;
     cursor: pointer;
 }
+
 .recipe-card button:hover {
     background-color: #1b5e20;
 }
@@ -106,7 +107,7 @@ margin-left: -80px;
 }
 
 body {
-    background-color: #eaeaea ;
+    background-color: #eaeaea;
     margin: 0;
     padding: 20px;
 }
