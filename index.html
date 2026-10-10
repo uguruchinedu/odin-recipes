@@ -4,79 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
-    <link rel="stylesheet" href="style.css">
+
+    <title>Odin Recipes | Discover, Cook & Enjoy</title>
+    <link rel="stylesheet" href="landing.css">
+
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="navbar">
-            <h1>Odin Recipes</h1>
-            <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-                <input type="search" placeholder="Search...">
-            </div>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Odin Recipes</a>
+
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </div>
 
-        <div class="welcome">
+    </nav>
+
+    <div class="landing-grid">
+
+        <!--For the side bar-->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3>Explore</h3>
+
+                <a href="#">eBooks</a>
+                <a href="#">Articles</a>
+                <a href="#">News</a>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>RECIPE CATEGORIES</h3>
+                <a href="#">African Dishes</a>
+                <a href="#">Nigerian Dishes</a>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>CONTINENTAL DISHES</h3>
+                <a href="#">American Dishes</a>
+                <a href="#">British Dishes</a>
+                <a href="#">Chinese Dishes</a>
+                <a href="#">French Dishes</a>
+                <a href="#">Japanese Dishes</a>
+                <a href="#">Mexican Dishes</a>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>MEAL & OCCASION</h3>
+                <a href="#">Breakfast</a>
+                <a href="#">Lunch</a>
+                <a href="#">Dinner</a>
+                <a href="#">Desserts</a>
+                <a href="#">Drinks</a>
+                <a href="#">Snacks</a>
+                <a href="#">Party Food</a>
+                <a href="#">Quick Meals</a>
+            </div>
+
+
+        </aside>
+
+        <main class="landing-content">
+            <h1>Odin Recipes</h1>
+
             <h2>Welcome to Odin Recipes</h2>
-            <p>
-                This is where you will discover various delicious meals and simple guide on how they are prepared. Click
-                on each meal <mark>View Recipe</mark> for preparation details
+
+            <p> Odin Recipes is a place where the love of good food meets the joy of cooking. Explore a collection of
+                delicious recipes inspired by different flavors, ingredients, and cooking traditions. Whether you are
+                preparing a familiar favorite or discovering something new, each recipe is designed to guide you through
+                the ingredients, preparation, and cooking process step by step.
+
             </p>
 
-        </div>
+            <p> Take your time, explore the recipes, learn new techniques, and discover dishes that can bring people
+                together around the table. Your next delicious meal might be just one recipe away.
 
-        <div class="recipe-card">
-            <img src="images/party-jollof.jpg" alt="upload image">
-            <a href="recipes/jollof-rice.html" target="_blank">
-                <button>View Recipe</button>
-            </a>
-        </div>
+            </p>
 
-        <div class="recipe-card">
-            <img src="images/fried-rice.jpg" alt="upload image">
-            <a href="recipes/fried-rice.html" target="_blank">
-                <button>View Recipe</button>
-            </a>
-        </div>
+            <a href="home.html" class="explore-btn">Explore Recipes</a>
+        </main>
 
-        <div class="recipe-card">
-            <img src="images/egusi-soup.jpg" alt="upload image">
-            <a href="recipes/egusi.html" target="_blank">
-                <button>View Recipe</button>
-            </a>
-        </div>
-
-        <div class="recipe-card">
-            <img src="images/Oyster-Mushroom.jpg" alt="upload image">
-            <a href="recipes/oyster-mushroom.html" target="_blank">
-                <button>View Recipe</button>
-            </a>
-        </div>
-        <div class="recipe-card">
-            <img src="images/Cheeseburger.jpg" alt="upload image">
-            <a href="recipes/cheeseburger.html" target="_blank">
-            <button>View Recipe</button>
-            </a>
-
-        </div>
-
-        <div class="recipe-card">
-            <img src="images/chicken-shawarma.jfif" alt="upload image">
-            <a href="recipes/shawarma.html" target="_blank">
-            <button>View Recipe</button>
-            </a>
-        </div>
-
-
-        <div class="footer">
-            <p>All rights reserved @ 2026 Odin Recipes</p>
-
-        </div>
     </div>
 
 </body>
