@@ -1,0 +1,114 @@
+/*entire body layout style*/
+body {
+    margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+}
+/*Styling the navigation bar*/
+.navbar {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.logo {
+    font-size: 28px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: darkgreen;
+}
+.nav-links {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+.nav-links a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+.nav-links a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+.nav-links input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    outline: none;
+    padding: 8px 12px;
+}
+.nav-links input:focus {
+    background-color: darkgreen;
+}
+.nav-links a.active {
+    color: darkred;
+    font-weight: bold;
+}
+/*styling the main content*/
+.about-page {
+    max-width: 1400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.about-page section {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.about-page h2 {
+    color: darkred;
+    font-size: 28px;
+    margin: 0 0 20px;
+}
+.get-in-touch h2 {
+    text-align: center;
+}
+.about-intro,
+.get-in-touch {
+    grid-column: 1/-1;
+}
+.about-page p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #444;
+    text-align: justify;
+}
+.about-intro {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.about-intro h1 {
+    font-size: 42px;
+    margin: 0 0 20px;
+    text-align: center;
+    color: darkblue;
+}
+.about-intro p {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 1.8px;
+    text-align: justify;
+    color: #444;
+}
+.get-in-touch a{
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkblue;
+}
+.get-in-touch a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
