@@ -3,7 +3,7 @@ body {
     margin: 0;
     display: grid;
     grid-template-rows: auto 1fr;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f5f5f5;
 }
 .navbar {
@@ -15,7 +15,8 @@ body {
 }
 .nav-links {
     display: flex;
-    gap: 30px;
+    gap: 40px;
+    text-align: center;
 }
 .logo {
     font-size: 24px;
@@ -28,6 +29,13 @@ body {
 }
 .nav-links a:hover {
     text-decoration: underline;
+}
+.nav-links input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    outline: none;
+    /* padding: 8px 12px; */
 }
 .landing-content {
     border-left: 1px solid darkgreen;
@@ -96,4 +104,48 @@ body {
 .sidebar {
     background-color: white;
     overflow-y: auto;
+}
+@media (max-width: 600px) {
+    .landing-grid {
+        grid-template-columns: 1fr;
+        overflow: visible;
+    }
+    .sidebar {
+        overflow-y: visible;
+    }
+    .landing-content {
+        border-left: none;
+    }
+    .landing-content p {
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 0 15px;
+        font-size: 16px;
+        letter-spacing: normal;
+        overflow-wrap: anywhere;
+    }
+    .navbar {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 15px;
+}
+
+.nav-links {
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+    min-width: 0;
+}
+
+.nav-links input {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.landing-content h1,
+.landing-content p {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+}
+    
 }
